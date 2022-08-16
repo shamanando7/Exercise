@@ -16,7 +16,7 @@ Console.WriteLine("Введите координат Y: ");
 var yString = Console.ReadLine();
 int y = int.Parse(yString);
 
-if (y == 0)
+if (y == 0) 
    Console.WriteLine("Невозможно вычислить четверть для точки, лежащей на оси");
 
 
