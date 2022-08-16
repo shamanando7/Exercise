@@ -40,7 +40,7 @@ else if (x > 0 && y < 0)
 // x > 0; y < 0 => 4
 
 if (result !=0)
-   Console.WriteLine("Номер четверти, в которой находится точка" + result);
+   Console.WriteLine("Номер четверти, в которой находится точка " + result);
  else   
 Console.WriteLine("Ошибка. Не удалось вычислить номер четверти ");
  
