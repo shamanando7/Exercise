@@ -10,13 +10,14 @@ int SumFrom1ToA(int a) {                         // здесь функция о
     
     for (var i = 0; i <= a; i++)                 // for (инициализатор(счетчик цикла); условие; итератор (шаг) {тело (выполняемые операторы)}
          result += i;                            // while(условие)
-    return result;                               // {оператор (операторы)}
-}
+                                                 // {оператор (операторы)}
+    return result;                               // тут возвращается готовый result
+}                                           
 
 
 var number = int.Parse (Console.ReadLine()!);     // у нас есть число и сумма чисел до него, считываем (защита от дурака)
 if (number <= 0)
-    return;
+    return;                                      
 
 var result = SumFrom1ToA(number);                 // функция вызывается здесь
 
